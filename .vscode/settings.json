@@ -1,0 +1,8 @@
+{
+    "Codegeex.RepoIndex": true,
+    "files.associations": {
+        "algorithm": "cpp",
+        "random": "cpp",
+        "iostream": "cpp"
+    }
+}

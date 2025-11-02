@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/rob198.dir/code/rob198.cpp.o -o /home/jiajun/liCode/CPP/bin/rob198 
