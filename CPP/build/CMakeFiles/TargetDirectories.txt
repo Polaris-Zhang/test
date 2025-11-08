@@ -1,3 +1,6 @@
+/home/jiajun/liCode/CPP/build/CMakeFiles/ThreeSum.dir
+/home/jiajun/liCode/CPP/build/CMakeFiles/lengthOfLongestSubstring.dir
+/home/jiajun/liCode/CPP/build/CMakeFiles/reverseList.dir
 /home/jiajun/liCode/CPP/build/CMakeFiles/rob198.dir
 /home/jiajun/liCode/CPP/build/CMakeFiles/edit_cache.dir
 /home/jiajun/liCode/CPP/build/CMakeFiles/rebuild_cache.dir

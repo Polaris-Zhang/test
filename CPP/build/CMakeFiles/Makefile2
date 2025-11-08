@@ -63,6 +63,9 @@ CMAKE_BINARY_DIR = /home/jiajun/liCode/CPP/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/ThreeSum.dir/all
+all: CMakeFiles/lengthOfLongestSubstring.dir/all
+all: CMakeFiles/reverseList.dir/all
 all: CMakeFiles/rob198.dir/all
 .PHONY : all
 
@@ -71,8 +74,89 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/ThreeSum.dir/clean
+clean: CMakeFiles/lengthOfLongestSubstring.dir/clean
+clean: CMakeFiles/reverseList.dir/clean
 clean: CMakeFiles/rob198.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ThreeSum.dir
+
+# All Build rule for target.
+CMakeFiles/ThreeSum.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreeSum.dir/build.make CMakeFiles/ThreeSum.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreeSum.dir/build.make CMakeFiles/ThreeSum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jiajun/liCode/CPP/build/CMakeFiles --progress-num=1,2 "Built target ThreeSum"
+.PHONY : CMakeFiles/ThreeSum.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ThreeSum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiajun/liCode/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ThreeSum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiajun/liCode/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/ThreeSum.dir/rule
+
+# Convenience name for target.
+ThreeSum: CMakeFiles/ThreeSum.dir/rule
+.PHONY : ThreeSum
+
+# clean rule for target.
+CMakeFiles/ThreeSum.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreeSum.dir/build.make CMakeFiles/ThreeSum.dir/clean
+.PHONY : CMakeFiles/ThreeSum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lengthOfLongestSubstring.dir
+
+# All Build rule for target.
+CMakeFiles/lengthOfLongestSubstring.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lengthOfLongestSubstring.dir/build.make CMakeFiles/lengthOfLongestSubstring.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lengthOfLongestSubstring.dir/build.make CMakeFiles/lengthOfLongestSubstring.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jiajun/liCode/CPP/build/CMakeFiles --progress-num=3,4 "Built target lengthOfLongestSubstring"
+.PHONY : CMakeFiles/lengthOfLongestSubstring.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lengthOfLongestSubstring.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiajun/liCode/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lengthOfLongestSubstring.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiajun/liCode/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/lengthOfLongestSubstring.dir/rule
+
+# Convenience name for target.
+lengthOfLongestSubstring: CMakeFiles/lengthOfLongestSubstring.dir/rule
+.PHONY : lengthOfLongestSubstring
+
+# clean rule for target.
+CMakeFiles/lengthOfLongestSubstring.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lengthOfLongestSubstring.dir/build.make CMakeFiles/lengthOfLongestSubstring.dir/clean
+.PHONY : CMakeFiles/lengthOfLongestSubstring.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/reverseList.dir
+
+# All Build rule for target.
+CMakeFiles/reverseList.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverseList.dir/build.make CMakeFiles/reverseList.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverseList.dir/build.make CMakeFiles/reverseList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jiajun/liCode/CPP/build/CMakeFiles --progress-num=5,6 "Built target reverseList"
+.PHONY : CMakeFiles/reverseList.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/reverseList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiajun/liCode/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/reverseList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiajun/liCode/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/reverseList.dir/rule
+
+# Convenience name for target.
+reverseList: CMakeFiles/reverseList.dir/rule
+.PHONY : reverseList
+
+# clean rule for target.
+CMakeFiles/reverseList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverseList.dir/build.make CMakeFiles/reverseList.dir/clean
+.PHONY : CMakeFiles/reverseList.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/rob198.dir
@@ -81,7 +165,7 @@ clean: CMakeFiles/rob198.dir/clean
 CMakeFiles/rob198.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rob198.dir/build.make CMakeFiles/rob198.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rob198.dir/build.make CMakeFiles/rob198.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jiajun/liCode/CPP/build/CMakeFiles --progress-num=1,2 "Built target rob198"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jiajun/liCode/CPP/build/CMakeFiles --progress-num=7,8 "Built target rob198"
 .PHONY : CMakeFiles/rob198.dir/all
 
 # Build rule for subdir invocation for target.

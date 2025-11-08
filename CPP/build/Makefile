@@ -117,6 +117,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ThreeSum
+
+# Build rule for target.
+ThreeSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ThreeSum
+.PHONY : ThreeSum
+
+# fast build rule for target.
+ThreeSum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreeSum.dir/build.make CMakeFiles/ThreeSum.dir/build
+.PHONY : ThreeSum/fast
+
+#=============================================================================
+# Target rules for targets named lengthOfLongestSubstring
+
+# Build rule for target.
+lengthOfLongestSubstring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lengthOfLongestSubstring
+.PHONY : lengthOfLongestSubstring
+
+# fast build rule for target.
+lengthOfLongestSubstring/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lengthOfLongestSubstring.dir/build.make CMakeFiles/lengthOfLongestSubstring.dir/build
+.PHONY : lengthOfLongestSubstring/fast
+
+#=============================================================================
+# Target rules for targets named reverseList
+
+# Build rule for target.
+reverseList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reverseList
+.PHONY : reverseList
+
+# fast build rule for target.
+reverseList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverseList.dir/build.make CMakeFiles/reverseList.dir/build
+.PHONY : reverseList/fast
+
+#=============================================================================
 # Target rules for targets named rob198
 
 # Build rule for target.
@@ -128,6 +167,78 @@ rob198: cmake_check_build_system
 rob198/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rob198.dir/build.make CMakeFiles/rob198.dir/build
 .PHONY : rob198/fast
+
+code/ThreeSum.o: code/ThreeSum.cpp.o
+.PHONY : code/ThreeSum.o
+
+# target to build an object file
+code/ThreeSum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreeSum.dir/build.make CMakeFiles/ThreeSum.dir/code/ThreeSum.cpp.o
+.PHONY : code/ThreeSum.cpp.o
+
+code/ThreeSum.i: code/ThreeSum.cpp.i
+.PHONY : code/ThreeSum.i
+
+# target to preprocess a source file
+code/ThreeSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreeSum.dir/build.make CMakeFiles/ThreeSum.dir/code/ThreeSum.cpp.i
+.PHONY : code/ThreeSum.cpp.i
+
+code/ThreeSum.s: code/ThreeSum.cpp.s
+.PHONY : code/ThreeSum.s
+
+# target to generate assembly for a file
+code/ThreeSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThreeSum.dir/build.make CMakeFiles/ThreeSum.dir/code/ThreeSum.cpp.s
+.PHONY : code/ThreeSum.cpp.s
+
+code/lengthOfLongestSubstring.o: code/lengthOfLongestSubstring.cpp.o
+.PHONY : code/lengthOfLongestSubstring.o
+
+# target to build an object file
+code/lengthOfLongestSubstring.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lengthOfLongestSubstring.dir/build.make CMakeFiles/lengthOfLongestSubstring.dir/code/lengthOfLongestSubstring.cpp.o
+.PHONY : code/lengthOfLongestSubstring.cpp.o
+
+code/lengthOfLongestSubstring.i: code/lengthOfLongestSubstring.cpp.i
+.PHONY : code/lengthOfLongestSubstring.i
+
+# target to preprocess a source file
+code/lengthOfLongestSubstring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lengthOfLongestSubstring.dir/build.make CMakeFiles/lengthOfLongestSubstring.dir/code/lengthOfLongestSubstring.cpp.i
+.PHONY : code/lengthOfLongestSubstring.cpp.i
+
+code/lengthOfLongestSubstring.s: code/lengthOfLongestSubstring.cpp.s
+.PHONY : code/lengthOfLongestSubstring.s
+
+# target to generate assembly for a file
+code/lengthOfLongestSubstring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lengthOfLongestSubstring.dir/build.make CMakeFiles/lengthOfLongestSubstring.dir/code/lengthOfLongestSubstring.cpp.s
+.PHONY : code/lengthOfLongestSubstring.cpp.s
+
+code/reverseList.o: code/reverseList.cpp.o
+.PHONY : code/reverseList.o
+
+# target to build an object file
+code/reverseList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverseList.dir/build.make CMakeFiles/reverseList.dir/code/reverseList.cpp.o
+.PHONY : code/reverseList.cpp.o
+
+code/reverseList.i: code/reverseList.cpp.i
+.PHONY : code/reverseList.i
+
+# target to preprocess a source file
+code/reverseList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverseList.dir/build.make CMakeFiles/reverseList.dir/code/reverseList.cpp.i
+.PHONY : code/reverseList.cpp.i
+
+code/reverseList.s: code/reverseList.cpp.s
+.PHONY : code/reverseList.s
+
+# target to generate assembly for a file
+code/reverseList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverseList.dir/build.make CMakeFiles/reverseList.dir/code/reverseList.cpp.s
+.PHONY : code/reverseList.cpp.s
 
 code/rob198.o: code/rob198.cpp.o
 .PHONY : code/rob198.o
@@ -161,7 +272,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ThreeSum"
+	@echo "... lengthOfLongestSubstring"
+	@echo "... reverseList"
 	@echo "... rob198"
+	@echo "... code/ThreeSum.o"
+	@echo "... code/ThreeSum.i"
+	@echo "... code/ThreeSum.s"
+	@echo "... code/lengthOfLongestSubstring.o"
+	@echo "... code/lengthOfLongestSubstring.i"
+	@echo "... code/lengthOfLongestSubstring.s"
+	@echo "... code/reverseList.o"
+	@echo "... code/reverseList.i"
+	@echo "... code/reverseList.s"
 	@echo "... code/rob198.o"
 	@echo "... code/rob198.i"
 	@echo "... code/rob198.s"

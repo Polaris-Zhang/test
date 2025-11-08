@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ThreeSum.dir/code/ThreeSum.cpp.o -o /home/jiajun/liCode/CPP/bin/ThreeSum 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lengthOfLongestSubstring.dir/code/lengthOfLongestSubstring.cpp.o -o /home/jiajun/liCode/CPP/bin/lengthOfLongestSubstring 
